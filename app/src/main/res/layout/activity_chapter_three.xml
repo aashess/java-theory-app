@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chapterThree">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textView90"
+        android:layout_width="193dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="7dp"
+        android:text="Classes and Objects"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView91"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView91"
+                android:layout_width="365dp"
+                android:layout_height="1890dp"
+                android:layout_marginStart="23dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginEnd="16dp"
+                android:text="★Concept of Classes&#10;
+		A class is a user defined blueprint or prototype from which objects are created.  It represents the set of properties or methods that are common to all objects of one type.
+&#10;      &#10; ★Concept of Object
+&#10;           It is a basic unit of Object-Oriented Programming and represents the real life entities.  A typical Java program creates many objects, which as you know, interact by invoking methods.
+			&#10;&#10;                   // creating object of class Test
+&#10;                           Test t1 = new Test();
+
+&#10;    ★Method
+		&#10;               A method is a block of code which only runs when it is called.
+You can pass data, known as parameters, into a method.
+Methods are used to perform certain actions, and they are also known as functions.
+	    &#10;           	                public class Main {
+  &#10;                         static void myMethod() {
+    &#10;                       // code to be executed
+        &#10;                       }
+&#10;                                   }
+&#10;&#10; ★Constructor
+	&#10;                       	A constructor is a block of codes similar to the method. It is called when an instance of the class is created. At the time of calling constructor, memory for the object is allocated in the memory.
+&#10;           1.		//Java Program to create and call a default constructor
+&#10;           2.	class Bike1{
+&#10;           3.	//creating a default constructor
+&#10;           4.	Bike1(){System.out.println(Bike is created);}
+&#10;           5.	//main method
+&#10;           6.	public static void main(String args[]){
+&#10;           7.	//calling a default constructor
+&#10;           8.	Bike1 b=new Bike1();
+&#10;           9.	}
+&#10;           10.	}
+
+&#10;&#10;  ★Inheritance
+		&#10;                   Inheritance in Java is a mechanism in which one object acquires all the properties and behaviors of a parent object. It is an important part of OOPs (Object Oriented programming system).
+
+&#10;           1.	class Subclass-name extends Superclass-name
+&#10;           2.	{
+&#10;           3.	   //methods and fields
+&#10;           4.	}
+
+&#10;★Methods Overriding
+                &#10;                       If subclass (child class) has the same method as declared in the parent class, it is known as method overriding in Java.
+In other words, If a subclass provides the specific implementation of the method that has been declared by one of its parent class, it is known as method overriding.
+&#10;               &#10;                   1.	//class object.
+&#10;                   2.	//Creating a parent class
+    &#10;                   3.	class Vehicle{
+&#10;                   4.	  void run()&#10;                           {&#10;                          System.out.println "
+                android:textSize="19sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chapterNine">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView105"
+        android:layout_width="338dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="62dp"
+        android:text="Computer Programming Syllabus"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView106"
+        android:layout_width="406dp"
+        android:layout_height="2256dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="32dp"
+        android:text="★Unit					                ★Contents
+&#10;&#10;★Unit 1:		  ★Review of Programming Concept
+		&#10;                               ●Definition
+		&#10;           ●Concept of Programming Language
+&#10;                              ●Flow chart
+        &#10;                               ●Algorithm
+&#10;                           ●Pseudocode
+&#10;   ●New Paradigm of Programming Language
+&#10;   ●Difference between Object Oriented and Event Driven Programming
+&#10;&#10;★Unit 2:		   ★Object Oriented Programming
+		&#10;                           ●Definition
+		 &#10;                          ●Features
+		 &#10;                  ●Characteristics of OOPs
+&#10;                     ●Importance of OOPs
+&#10;           ●Basic Concept of Java Programming
+&#10;           ●Introduction to Java Technologies &#10;                    (J2SE, J2EE, J2ME)
+&#10;           ●Java Tools( javac, java, appletviewer, Javadoc, jar, JVM, JRE , JDBC, JDK)
+&#10;                       ●Variables
+ &#10;              ●Tokens and Data Types, Operators
+&#10;   ●Conditional Statements (if, if else, if if else, switch)
+&#10;       ●Concept of Loops (while, do-while and for)
+&#10;&#10;&#10;★Unit 3:		        ★Classes and Objects
+&#10;&#10;                      ●Concept of Class
+&#10;                   ●Declaring objects
+&#10;                   ●Methods
+&#10;                   ●Constructor
+&#10;                   ●Inheritance
+&#10;                   ●Methods Overriding
+&#10;&#10;&#10;★Unit 4:		        ★Package and Interface
+&#10;&#10;                  ●Concept of Package
+&#10;                   ●Create and Import Package
+&#10;                   ●Sub Package
+&#10;                   ●Concept Of Interface
+&#10;                   ●Implement and Apply Interface
+&#10;&#10;★Unit 5: 		        ★I/O and Java Applets
+&#10;&#10;              ●I/O Stream
+&#10;                   ●Read and write Console
+&#10;                   ●Concepts of Applets
+&#10;                   ●Embedding Applet to HTML File
+&#10;&#10;★Unit 6:		        ★Visual Programming
+&#10;&#10;                   ●Concept of .NET Framework
+&#10;                   ●Common Language Runtime(CLR)
+&#10;                   ●Intermediate Language
+&#10;                   ●Assemblies, Class Libraries
+&#10;                   ●Namespace
+&#10;                   ●Introduction to Visual Studio
+&#10;                   ●Integrated Development Environment(Menu bar, Toolbar, Explorer, Toolbox properties, Form Designer)
+&#10;                   ●Methods and Events in visual Programming
+&#10;&#10;&#10;★Unit 7: 		        ★Visual Language
+&#10;&#10;                   ●Variables and Data Types
+&#10;                   ●Constants
+&#10;                   ●Array
+&#10;                   ●Control Statements (Conditional and loop Statements)
+&#10;                   ●Sub and Functions (Passing Variables and Arguments, Returning value from the function).
+&#10;&#10;★Unit 8:		        ★Object Oriented Programming
+&#10;&#10;                  ●Class and Object
+&#10;                   ●Properties, methods and Events
+&#10;                   ●Constructors
+&#10;                   ●Concept of Inheritance
+&#10;                   ●User Control and COM Technology
+&#10;                   ●Accessing the WIN32 from .NET and Interfacing
+&#10;                   ●Dynamic Link Library (DLL)
+&#10;                   ●Exception Handling(Try, Catch)
+"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView105" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

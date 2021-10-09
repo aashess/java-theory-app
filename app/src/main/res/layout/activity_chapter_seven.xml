@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chapterSeven">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView103"
+        android:layout_width="197dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="119dp"
+        android:layout_marginBottom="13dp"
+        android:text="        Chapter-7 &#10;   Visual Language"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView104"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView104"
+        android:layout_width="360dp"
+        android:layout_height="2161dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="27dp"
+        android:text="★Variables
+		&#10;                   Variable in Java is a data container that stores the data values during Java program execution. Every variable is assigned data type which designates the type and quantity of value it can hold. Variable is a memory location name of the data.
+&#10;&#10;★Data Types
+&#10;                   Data types specify the different sizes and values that can be stored in the variable. There are two types of data types in Java:
+&#10;   1.	Primitive data types:&#10;                           The primitive data types include boolean, char, byte, short, int, long, float and double.
+&#10;   2.	Non-primitive data types:&#10;                           The non-primitive data types include Classes, Interfaces, and Arrays.
+&#10;&#10;★Constants
+	&#10;               A constant is a value that should not be altered by the program during normal execution, &#10;          i.e., the value is constant.
+&#10;&#10;★Array
+	&#10;           An array in Java is a set of variables referenced by using a single variable name combined with an index number. Each item of an array is an element. &#10;                         All the elements in an array must be of the same type. Thus, the array itself has a type that specifies what kind of elements it can contain.
+&#10;&#10;★Control Statement (Conditional and Loop Statement)
+			&#10;&#10;                     These control statements help with implementing decision-making in a program. A conditional statement will select the block of statements that will execute based on the given condition. The result of the program depends on the condition.
+&#10;&#10;★Simple if-else
+&#10;               This code shows a true block and a false block. If the condition is true, the control will pass to the statements written under the if block. If the condition is false, it will pass to statements under the else block.
+&#10;&#10;★Else-if statement
+&#10;               If we want to test a particular case through multiple conditions, we can do it using the else-if statement.
+&#10;&#10;★Nested if-else
+&#10;               When there is another block of if-else statements inside an outer block of if-else, is called nested if-else.
+&#10;&#10;★Loop Statements
+&#10;               Loop statements are also known as repetitive statements or looping statements. A looping statement is used when the program requires a statement’s execution (or the repeated execution of a set of statements) until some condition for loop termination is satisfied.
+&#10;&#10;           There are two types of loops:
+&#10;•	For loop
+&#10;•	While loop
+&#10;&#10;★For loop
+&#10;           A For loop works on iterator objects. For loops work with sequences such as list, tuple, strings, etc.
+&#10;           Syntax: for variable_name in sequence
+&#10;&#10;★While loops
+&#10;           While loops depend on a condition. We use this type of loop when we don’t know the exact number of times a loop will run (unlike in For loop).
+"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView103" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

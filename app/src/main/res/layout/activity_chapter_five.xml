@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chapterFive">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView97"
+        android:layout_width="126dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="164dp"
+        android:layout_marginBottom="4dp"
+        android:text="Chapter-5"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView98"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView98"
+        android:layout_width="216dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="20dp"
+        android:text="I/O and Java Applets"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView99"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView97" />
+
+    <TextView
+        android:id="@+id/textView99"
+        android:layout_width="373dp"
+        android:layout_height="2198dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="26dp"
+        android:text="★I/O Stream
+		&#10;&#10;                   Java brings various Streams with its I/O package that helps the user to perform all the input-output operations. &#10;                     These streams support all the types of objects, data-types, characters, files etc to fully execute the I/O operations. &#10;        Before exploring various input and output streams lets look at 3 standard or default streams that Java has to provide which are also most common in use:
+
+&#10;&#10;★Read and Write Console
+		&#10;                       You can read the input by using Scanner Class.
+This is probably the most preferred method to take input.&#10;                               The main purpose of the Scanner class is to parse primitive types and strings using regular expressions, however, it is also can be used to read input from the user in the command line.
+&#10;&#10;                 // Java program to demonstrate working of Scanner in Java
+&#10;&#10;          import java.util.Scanner;
+
+&#10;&#10;           class GetInputFromUser {
+    &#10;&#10;     public static void main(String args[])
+    &#10;                       {
+        &#10;       // Using Scanner for Getting Input from User
+        &#10;&#10;      Scanner in = new Scanner(System.in);
+
+        &#10;&#10;              String s = in.nextLine();
+        &#10;&#10;System.out.println(You entered string  + s);
+
+        &#10;                   int a = in.nextInt();
+        &#10;&#10;System.out.println(You entered integer  + a);
+
+        &#10;&#10;                  float b = in.nextFloat();
+        &#10;&#10;  System.out.println(You entered float  + b);
+
+          &#10;                 &#10;// closing scanner
+          &#10;&#10;                 in.close();
+    &#10;                   }
+&#10;                       }
+
+&#10;★Concept of Applet in Java
+			&#10;An applet is a Java program that runs in a Web browser. &#10;              An applet can be a fully functional Java application because it has the entire Java API at its disposal.
+&#10;&#10;                  There are some important differences between an applet and a standalone Java application, including the following −
+&#10;&#10;   •	An applet is a Java class that extends the java.applet.Applet class.
+&#10;&#10;   •	A main() method is not invoked on an applet, and an applet class will not define main().
+&#10;&#10;   •	Applets are designed to be embedded within an HTML page.
+&#10;&#10;      •	When a user views an HTML page that contains an applet, the code for the applet is downloaded to the user's machine.
+&#10;&#10;Embedding Applet to HTML file
+		&#10;
+&#10;	                    html
+&#10;	                    head
+&#10;	         titleApplet Tag /title
+&#10;	                    /head
+&#10;                   	 body
+&#10;	      pExample of Applet Tag /p
+&#10;	        applet code=Shapes.class align=right height=200 width=300
+    &#10;	      Sorry! you need Java to see this/b
+    &#10;                       /applet
+    &#10;                       /body
+    &#10;	                    /html
+    "
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView98" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chapterSix">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView100"
+        android:layout_width="112dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="205dp"
+        android:text="Chapter- 6"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView101"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.412"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView101"
+        android:layout_width="198dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="102dp"
+        android:layout_marginEnd="123dp"
+        android:layout_marginBottom="32dp"
+        android:text="Visual Programming"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView102"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView100" />
+
+            <TextView
+                android:id="@+id/textView102"
+                android:layout_width="370dp"
+                android:layout_height="2438dp"
+                android:layout_marginStart="17dp"
+                android:layout_marginTop="-10dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="34dp"
+                android:text="★Visual Programming &#10;
+                        A visual programming language enables the development of software program by eliminating textual software code with a series of visual graphics elements.
+         	&#10;&#10;             Example- Kodu, Blockly, UML. &#10;&#10;       Visual Programming language is a programming language that lets users create programs by manipulating program elements graphically rather than by specifying them textually.
+         	 &#10;&#10;★Concept of .NET Framework
+         	  			&#10;                       Net Framework is a software development platform developed by Microsoft for building and running Windows applications.
+         	  			&#10;                       The .Net framework consists of developer tools, programming languages, and libraries to build desktop and web applications.
+         	  			  &#10;&#10;                    It is also used to build websites, web services, and games.&#10;&#10;                The.Net framework was meant to create applications, which would run on the Windows Platform. The first version of the .Net framework was released in the year 2002. The version was called .Net framework 1.0.
+         	  			  &#10;&#10;★Common Language Runtime
+         	  			  &#10;                     .NET provides a runtime environment called the common language runtime, that runs the code and provides service that make the development process easier. It coverts code into native code which further can be executed by the CPU.
+         	  			  &#10;&#10;★Intermediate language (IL)
+         	  			   			   &#10;                        Intermediate language is an object oriented programming language designed to be used by compilers for the .NET framework before static or dynamic compilation to machine code. The intermediate language(IL) is used by the .NET framework to generate machine-independent code as the output of compilation of the source code written in any .NET programming language.
+         	  			   			    &#10;&#10;★Assemblies 		&#10;               Assemblies are the building block of .NET framework applications, they form the fundamental unit of deployment, version control, reuse activation scoping and security permission.
+         	  			   			     &#10;&#10;★Class libraries&#10; 		            .NET framework class library is the collection of classes, namespaces, interfaces and value types that are used for .NET application.
+         	  			   			      &#10;&#10;★Namaspace&#10;                  		Namespace are heavily used in C# programming in two ways. .NET uses namespace to orgranize its many classes as follows:- System.console.writeline(“HELLOW WORLD”);
+         	  			   			      &#10;&#10;★Introduction to visual studio&#10;                  		Visual Studio is an intergrated development environment (IDE) is a software application that provides comprehensive facilites to computer programers for software development. An ide normally consistes of at least a source code editor, build automation tools and a debugger.
+         	  			   			       &#10;&#10;★Methods and Events in Visual Programming&#10;
+                            Methods tells object to do something such as play and stop. In some cases, method can be used to simplify the setting of properties. You might use a method called setsize().
+                             			&#10;&#10;              For example: to simultaneously set the width and height of something.
+                             			  &#10;                     Other example: navigateToURL() which instructs a browser to display a web page.
+                             			   		&#10;&#10;          Events are the catalysts that trigger the action you write, setting properties and calling methods.
+                             			   		 		&#10;&#10;Ex- a user click the mouse button which would then result in mouse event to execute. "
+                android:textSize="19sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView101" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+        </androidx.constraintlayout.widget.ConstraintLayout>

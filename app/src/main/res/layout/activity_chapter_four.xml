@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chapterFour">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView94"
+        android:layout_width="180dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginBottom="9dp"
+        android:text="Chapter-4"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView95"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView95"
+        android:layout_width="217dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="9dp"
+        android:text="Package and Interface"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView94" />
+
+    <TextView
+        android:id="@+id/textView96"
+        android:layout_width="361dp"
+        android:layout_height="2154dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="135dp"
+        android:text="
+★Concept of Package
+
+    		&#10;&#10;                   Package in Java is a mechanism to encapsulate a group of classes, sub packages and interfaces. &#10;Packages are used for:
+&#10;       •	Preventing naming conflicts.&#10; For example there can be two classes with name Employee in two packages, college.staff.cse.Employee and college.staff.ee.Employee
+
+&#10;&#10;★Create and Import Package
+		&#10;           // Name of the package must be same as the directory
+&#10;           // under which this file is saved
+&#10;       package myPackage;
+
+&#10;       public class MyClass
+        &#10;           {
+    &#10;           public void getNames(String s)
+    &#10;               {
+        &#10;           System.out.println(s);
+    &#10;               }
+&#10;                   }
+&#10;&#10;               Now we can use the MyClass class in our program.
+&#10;&#10;           /* import 'MyClass' class from 'names' myPackage */
+&#10;&#10;       import myPackage.MyClass;
+
+&#10;&#10;       public class PrintName
+&#10;           {
+   &#10;&#10; public static void main(String args[])
+   &#10;            {
+      &#10; // Initializing the String variable
+      &#10;         // with a value
+      &#10;&#10;     String name = GeeksforGeeks;
+
+      &#10;&#10;// Creating an instance of class MyClass in
+      &#10;// the package.
+      &#10;&#10;        MyClass obj = new MyClass();
+
+      &#10;&#10;            obj.getNames(name);
+   &#10;                                }
+&#10;                               }
+&#10;&#10;           Note : MyClass.java must be saved inside the myPackage directory since it is a part of the package.
+
+
+&#10;&#10;★Sub Pacakage
+		 &#10;              Packages that are inside another package are the subpackages. These are not imported by default, they have to imported explicitly. Also, members of a subpackage have no access privileges, i.e., they are considered as different package for protected and default access specifiers.
+&#10;&#10;★Concept of Interface
+		&#10;           An interface in Java is a blueprint of a class. It has static constants and abstract methods.
+&#10;                               The interface in Java is a mechanism to achieve abstraction. There can be only abstract methods in the Java interface, not method body. It is used to achieve abstraction and multiple inheritance in Java.
+&#10;                   In other words, you can say that interfaces can have abstract methods and variables. It cannot have a method body.
+&#10;&#10;Implement and Apply Interface
+&#10;&#10;   		        		interface printable{
+&#10;	                    void print();
+&#10;                           }
+&#10;           	class A6 implements printable{
+&#10;                   public void print() &#10;                           {&#10;          System.out.println(Hello);}
+&#10;           public static void main(String args[])&#10;                         {
+&#10;                   A6 obj = new A6();
+&#10;                   obj.print();
+&#10;                                  }
+&#10;                          }  "
+        android:textSize="19sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView95" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

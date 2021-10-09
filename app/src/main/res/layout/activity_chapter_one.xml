@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chapterOne">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="362dp"
+                android:layout_height="51dp"
+                android:layout_marginStart="105dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="285dp"
+                android:layout_marginBottom="3dp"
+                android:text="Review of Programming Concept"
+                android:textColor="#575454"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/textView60"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.256"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.47000003" />
+
+            <TextView
+        android:id="@+id/textView60"
+        android:layout_width="134dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="-10dp"
+        android:layout_marginBottom="1dp"
+        android:text="*Program"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView61"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView59" />
+
+            <TextView
+                android:id="@+id/textView61"
+                android:layout_width="353dp"
+                android:layout_height="64dp"
+                android:layout_marginStart="94dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="296dp"
+                android:layout_marginBottom="12dp"
+                android:text="A program is a set of instructions that help computer to perform tasks.
+		This  set of instructions is also called as scripts."
+                android:textSize="16sp"
+                app:layout_constraintBottom_toTopOf="@+id/textView62"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.226"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView60" />
+
+    <TextView
+        android:id="@+id/textView62"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginEnd="345dp"
+        android:layout_marginBottom="14dp"
+        android:text="*Programming Language"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView63"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.038"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView61" />
+
+            <TextView
+                android:id="@+id/textView63"
+                android:layout_width="344dp"
+                android:layout_height="78dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="-5dp"
+                android:layout_marginEnd="374dp"
+                android:layout_marginBottom="3dp"
+                android:text="The language that are used to write a program or set of instructions are called programming language.
+			&#10;It is categorized into three types:
+"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toTopOf="@+id/textView64"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView62" />
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="263dp"
+                android:layout_height="34dp"
+                android:layout_marginStart="59dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="310dp"
+                android:layout_marginBottom="2dp"
+                android:text="1) Machine Level Language"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/textView65"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.108"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView63" />
+
+            <TextView
+                android:id="@+id/textView65"
+                android:layout_width="358dp"
+                android:layout_height="212dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="370dp"
+                android:layout_marginBottom="15dp"
+                android:text="Machine level language is a lowest level of programming language which directly interacts with system.
+&#10;   -It handles binary data i.e 0s and 1s.
+&#10;   -It is difficult for human beings to understand as it comprises combination of 0s and1s.
+&#10;   -There is software which translate programs into machine level language.
+&#10;   -In this language, there is no need of compilers and interpreters for conversion and hence the time consumption is less.
+"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toTopOf="@+id/textView66"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.014"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView64" />
+
+            <TextView
+                android:id="@+id/textView66"
+                android:layout_width="259dp"
+                android:layout_height="28dp"
+                android:layout_marginStart="42dp"
+                android:layout_marginTop="-10dp"
+                android:layout_marginEnd="348dp"
+                android:layout_marginBottom="15dp"
+                android:text="2) Assembly level language"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/textView67"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.101"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView65" />
+
+            <TextView
+                android:id="@+id/textView67"
+                android:layout_width="352dp"
+                android:layout_height="164dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="-10dp"
+                android:layout_marginEnd="375dp"
+                android:layout_marginBottom="31dp"
+                android:text="Assembly level language is a middle-level language which consists of a set of instructions in a specific format called commands.
+   		&#10;-It uses symbols to represent field of instructions.
+		&#10;-It is very close to machine level language.
+		&#10;-The computer should have assembler to translate assembly level program to machine level program.
+"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toTopOf="@+id/textView68"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView66" />
+
+            <TextView
+                android:id="@+id/textView68"
+                android:layout_width="238dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="43dp"
+                android:layout_marginTop="-30dp"
+                android:layout_marginEnd="167dp"
+                android:layout_marginBottom="21dp"
+                android:text="3)High level language"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/textView69"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView67" />
+
+            <TextView
+                android:id="@+id/textView69"
+                android:layout_width="355dp"
+                android:layout_height="134dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="-10dp"
+                android:layout_marginEnd="26dp"
+                android:layout_marginBottom="21dp"
+                android:text="High level language is most familiar to users by the format or language of the programming language and instructions in this language are called codes or scripts.
+	&#10;   -The computer needs compiler and interpreter to convert high level language program to machine level language.
+	&#10;   -It consumes less time to write a program and easy to debug because it is write in a human readable language.
+"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toTopOf="@+id/textView70"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView68" />
+
+    <TextView
+        android:id="@+id/textView70"
+        android:layout_width="109dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="311dp"
+        android:layout_marginBottom="3dp"
+        android:text="*Algorithm"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView71"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView69" />
+
+            <TextView
+                android:id="@+id/textView71"
+                android:layout_width="362dp"
+                android:layout_height="105dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="26dp"
+                android:layout_marginBottom="40dp"
+                android:text="Algorithm is a set of instructions to be executed in a certain order or in step by step procedure to get the desired output.
+		&#10;   -Algorithm can be implemented in more than one &#10;     programming language.
+"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toTopOf="@+id/textView72"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView70" />
+
+            <TextView
+                android:id="@+id/textView72"
+                android:layout_width="308dp"
+                android:layout_height="29dp"
+                android:layout_marginStart="49dp"
+                android:layout_marginTop="-40dp"
+                android:layout_marginEnd="91dp"
+                android:layout_marginBottom="10dp"
+                android:text="Characteristics of an Algorithm"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/textView73"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView71" />
+
+            <TextView
+                android:id="@+id/textView73"
+                android:layout_width="362dp"
+                android:layout_height="132dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="-4dp"
+                android:layout_marginEnd="34dp"
+                android:layout_marginBottom="8dp"
+                android:text="An algorithm should have the following Characteristics:-
+			&#10;                   1)Unambigious
+			&#10;                   2)Input
+			&#10;                   3)Output
+		&#10;                   4)Finiteness
+		&#10;                   5)Independent
+"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toTopOf="@+id/textView74"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView72" />
+
+    <TextView
+        android:id="@+id/textView74"
+        android:layout_width="218dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="191dp"
+        android:layout_marginBottom="14dp"
+        android:text="*Flowchart"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView75"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView73" />
+
+            <TextView
+                android:id="@+id/textView75"
+                android:layout_width="370dp"
+                android:layout_height="79dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="-10dp"
+                android:layout_marginEnd="27dp"
+                android:layout_marginBottom="20dp"
+                android:text="A flowchart is a blue print that pictorially represents the algorithm and its steps.
+	&#10;           -The steps of flowchart do not have a specific size and shape rather it is designed in different shapes and sizes.
+"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toTopOf="@+id/textView76"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView74" />
+
+            <TextView
+                android:id="@+id/textView76"
+                android:layout_width="223dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="1dp"
+                android:text="Benefits of flowchart"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/textView77"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView75" />
+
+            <TextView
+        android:id="@+id/textView77"
+        android:layout_width="312dp"
+        android:layout_height="121dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="7dp"
+        android:text="          1)Simplify the logic
+&#10;          2)Make communication Better
+&#10;          3)Effective analysis
+&#10;          4)Useful in coding
+&#10;          5)Proper testing
+&#10;          6)Applicable Documentation
+"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView78"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView76" />
+
+    <TextView
+        android:id="@+id/textView78"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="298dp"
+        android:layout_marginBottom="14dp"
+        android:text="*PseudoCode"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView79"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView77" />
+
+    <TextView
+        android:id="@+id/textView79"
+        android:layout_width="356dp"
+        android:layout_height="185dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="3dp"
+        android:text="Pseudocode is an informal way of programming description that does not require any strict programming language syntax or underlying technology consideration.
+		&#10;   -It is used for creating an outline or a rough draft of a program.
+		&#10;   -System designers write pseudocode to ensure that programmers understand a software projects requirements and align  code accordingly.
+"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView80"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView78" />
+
+    <TextView
+        android:id="@+id/textView80"
+        android:layout_width="256dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="5dp"
+        android:text="Advantage of Psedocode"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView81"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView79" />
+
+    <TextView
+        android:id="@+id/textView81"
+        android:layout_width="355dp"
+        android:layout_height="116dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="9dp"
+        android:text="-Pseudocode is understood by the programmers of all types.
+		&#10;-It enables the programmer to concentrate only on the algorithm part of the code development.
+		&#10;-It cannot be compiled into an executable program.
+"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView82"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView80" />
+
+    <TextView
+        android:id="@+id/textView82"
+        android:layout_width="333dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="5dp"
+        android:text="Introduction of programming paradigm"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView83"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView81" />
+
+    <TextView
+        android:id="@+id/textView83"
+        android:layout_width="110dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="-4dp"
+        android:layout_marginEnd="283dp"
+        android:layout_marginBottom="7dp"
+        android:text="*Paradigm"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView84"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView82" />
+
+    <TextView
+        android:id="@+id/textView84"
+        android:layout_width="350dp"
+        android:layout_height="143dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="-6dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="3dp"
+        android:text="Paradigm can be termed as method to solve problem or do some task. &#10;-Programming paradigm is an approach to solve problem using some programming language. &#10;Paradigm is divided into two parts:- 	&#10;       1)Imperative programming &#10;       2)Declarative Programming Paradigm "
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView85"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView83" />
+
+    <TextView
+        android:id="@+id/textView85"
+        android:layout_width="348dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="4dp"
+        android:text="1)Imperative Programming Paradigm"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView86"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView84" />
+
+    <TextView
+        android:id="@+id/textView86"
+        android:layout_width="362dp"
+        android:layout_height="108dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="5dp"
+        android:text="It is one of the oldest programming paradigm which is based on von-neumann architecture and works by changing the program state through assignment statements. -it performs step by step task by changing state. "
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView87"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView85" />
+
+    <TextView
+        android:id="@+id/textView87"
+        android:layout_width="358dp"
+        android:layout_height="147dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="5dp"
+        android:text="Advantage&#10;       	-Easy to implement.&#10; 	      -It contains loops, variables etc.&#10; Disadvantage&#10;      	-Complex problem cannot be sloved.&#10;  	    -Less efficient and less productive.&#10;      	-Parallel programming is not possible. "
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView88"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView86" />
+
+    <TextView
+        android:id="@+id/textView88"
+        android:layout_width="355dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="21dp"
+        android:text="a)	Procedural Programming Paradigm"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView89"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView87" />
+
+    <TextView
+        android:id="@+id/textView89"
+        android:layout_width="369dp"
+        android:layout_height="1002dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="34dp"
+        android:text="Procedural programming paradigm emphasizes on procedure in terms of under lying machine model.
+	&#10;   -there is no difference between procedural and imperative approach.
+&#10;   -it has the ability to reuse the code.
+                &#10;       &#10;       b)Object Oriented Programming Paradigm
+	&#10;                               The program is writer as a collection of classes and object which are meant of communication. The smallest and basic entity is object and all kind of computation is performed on the objects only. &#10;                                               It can handle almost all kind of real life problems.
+&#10;           &#10;           c)parallel processing Approach
+	&#10;                       Parallel processing is the processing of program instructions by dividing them among multiple processors. A parallel processing system posses many numbers of processor with the objective of running a program in less time by dividing them. This approach seems to be like divide and conquer.
+&#10;           &#10;           2) Declarative programming paradigm
+Declarative programming paradigm is a style of building program that expresses logic of computation without talking about its control flow.
+It is divided as logic, functional, database. It often consider programs as theories of some logic.
+&#10; &#10;           a)	Logic Programming paradigm
+&#10;                                   It can be termed as abstract model of computation which would solve  logical problems like puzzles, series etc.
+In logical programming the main emphasize is on knowledge base and the problem.
+&#10;&#10;           b)	Functional programming paradigm
+The functional programming paradigm has its roots in mathematics and it is language independent which principal is the execution of series of mathematical functions.
+Data are loosely coupled to functions.
+The function hide their implementation.&#10;&#10;           c)	Database/ Data driven programming approach
+This programming methodology is based on data and its movement. Program statements are defined by data rather than hard coding a series of steps.
+A database program is the heart of a business information system and provides file creation data entry, update and reporting functions.
+
+"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.181"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView88" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
