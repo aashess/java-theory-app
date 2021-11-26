@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LearnJava">
         <activity
+            android:name=".subjectList"
+            android:exported="true" />
+        <activity
             android:name=".mainScreen"
             android:exported="true" />
         <activity
